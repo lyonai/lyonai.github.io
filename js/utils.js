@@ -756,7 +756,7 @@ const anzhiyu = {
     }
 
     // 否则重新从服务器获取数据
-    fetch("/json/music.json")
+    fetch("/js/music.json")
       .then(response => response.json())
       .then(songs => {
         const cacheData = {
